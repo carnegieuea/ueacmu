@@ -142,7 +142,7 @@ body {
 	max-height: auto;
 }
 .page-footer {
-	background-color: rgb(44,107,203);
+	/*background-color: rgb(44,107,203);*/
 }
 .page-footer a {
 	color: lightgray;
