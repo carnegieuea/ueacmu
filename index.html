@@ -31,6 +31,27 @@
   <body id="page-home">
     <div id="nav"></div>
 
+    <!-- Any Notifications -->
+
+    <div
+      class="alert alert-warning alert-dismissible fade show m-0"
+      role="alert"
+    >
+      <h5 class="mb-0 text-center" style="line-height: 1.2; font-weight: 600;">
+        Come out to the First UEA General Body Meeting Thursday, September 12 @
+        6pm in the Swartz Center for Entrepreneurship (Tepper Quad). Food and
+        snacks will be provided!
+      </h5>
+      <button
+        type="button"
+        class="close"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
     <!-- Begin of Main Content -->
     <section id="hero">
       <div class="container py-md-5">
@@ -76,6 +97,23 @@
                 </div>
               </div>
             </form>
+            <a
+              href="https://join.slack.com/t/cmu-uea/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                class="btn shadow rounded-pill py-2 text-white"
+                style="background-color: rgb(90, 37, 101);"
+              >
+                Join Our Slack
+                <img
+                  src="images/Slack_Mark_Web.png"
+                  width="40px"
+                  height="auto"
+                />
+              </button>
+            </a>
           </div>
           <div class="col-lg-6 p-3 d-none d-sm-block">
             <img src="images/hero_goingup.svg" class="img-fluid" alt="" />
@@ -141,10 +179,14 @@
                 aria-controls="v-pills-profile"
                 aria-selected="false"
               >
-                <h5 class="font-weight-bold">Idea to Startup</h5>
+                <h5 class="font-weight-bold">
+                  Idea to Startup Bootcamp
+                </h5>
                 <p class="d-none d-lg-block">
                   Find the guidance, team, and resources to turn your idea into
                   the next startup that changes the world through our incubator.
+                  Applications for Idea to Startup are currently open. Don't
+                  miss out.
                 </p>
               </a>
               <a
@@ -204,9 +246,11 @@
               >
                 <img src="images/events_i2s5.png" class="img-fluid" alt="" />
                 <a
-                  href="/pages/events.html"
+                  href="https://forms.gle/PCPrnsytMaHxvpZU6"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   class="btn btn-primary shadow-sm btn-block my-4 py-2"
-                  >Learn More</a
+                  >Apply Now</a
                 >
               </div>
               <div
@@ -250,31 +294,78 @@
       </div>
     </section>
 
-    <!-- <section id="academy">
-    <div class="container py-md-4">
-      <div class="row">
-        <div class="col-md-8">
-          
-          <h2 class="display-5 font-weight-bold">
-            Apply to the Startup Academy
-          </h2>
-          <p>
-            Open to freshman and sophomore undergraduates at Carnegie Mellon University, the Startup Academy provides a year long program designed for entrepreneurs to gain the skills necessary to grow, launch, and succeed in the startup world. Whether you have a startup now
-            or are looking to become an entrepreneur in the future, the Startup Academy provides mentorship, specialized funding resources, entrepreneurship education, practical technology skills, and job opportunities 
-            only available to its exclusive cohort.
-          </p>
-          <a class="btn btn-outline-primary shadow-sm py-2 px-5" href="pages/startupacademy.html">Apply</a>
-        </div>
-        <div class="col-md-4 text-center">
-          <img src="images/startup_academy_graphic.svg" alt="" class="img-fluid">
+    <section id="news">
+      <div class="container">
+        <div class="card-deck py-md-4">
+          <!-- Board Opening -->
+          <div class="card col-md-4 p-0 shadow">
+            <img class="card-img-top shadow" src="images/uea.jpg" alt="I2S5" />
+            <div class="card-body">
+              <h5 class="card-title">Board Openings!</h5>
+
+              <p class="card-text">
+                Join our UEA executive board to organize great events together!
+              </p>
+
+              <a
+                href="pages/boardopenings.html"
+                target="_blank"
+                class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <!-- Idea to Startup  -->
+          <div class="card col-md-4 p-0 shadow">
+            <img
+              class="card-img-top shadow"
+              src="images/events_i2s5.png"
+              alt="Idea to Startup"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Idea to Startup Applications Open</h5>
+
+              <p class="card-text">
+                Join the Idea to Startup 2019 - 2020 Cohort and transform your
+                idea into reality. Applications are open now!
+              </p>
+              <a
+                href="https://forms.gle/PCPrnsytMaHxvpZU6"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+                >Apply Now</a
+              >
+            </div>
+          </div>
+
+          <!-- Hack-a-Startup  -->
+          <div class="card col-md-4 p-0 shadow">
+            <img
+              class="card-img-top shadow"
+              src="images/hackastartup.png"
+              alt="HackaStartup"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hack-a-Startup</h5>
+
+              <p class="card-text">
+                Hack-a-Startup is coming this semester! Join our newsletter to
+                get the latest updates.
+              </p>
+
+              <a
+                href="https://cmu-gec.org/hackastartup"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+                >Learn More</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>   -->
-
-    <!-- <section id="resources">
-    Resources
-  </section> -->
+    </section>
 
     <section id="sponsors" class="py-5">
       <div class="container text-center pb-md-5">
@@ -351,6 +442,7 @@
               class="img-fluid"
             />
           </div>
+
           <div class="col-md-3">
             <img
               src="images/partners/innospring.jpg"

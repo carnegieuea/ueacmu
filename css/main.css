@@ -1,16 +1,16 @@
 :root {
-	--organge: #FF7F50;
-	--darkorange: #ce6640;
+  --organge: #ff7f50;
+  --darkorange: #ce6640;
 }
 
 html {
-	scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
-  
+
 .font-weight-bolder {
   font-weight: 900 !important;
 }
@@ -20,18 +20,16 @@ a:hover {
 }
 
 .navbar {
-	padding: 0.75rem 1.25rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .nav-item a {
-	font-size: 0.9rem !important;
+  font-size: 0.9rem !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-
 }
-
 
 .navbar-toggler {
   border: 0px solid transparent;
@@ -39,131 +37,130 @@ a:hover {
 }
 
 .btn {
-	padding-left: 2rem;
-	padding-right: 2rem;
-	font-weight: 700;
-	font-size: 0.9rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	transition: 0.4s;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.4s;
 }
 
 .btn:hover {
-	transform: translateY(-1px);
-	transition: 0.4s;
+  transform: translateY(-1px);
+  transition: 0.4s;
 }
 
 .btn-primary {
-	background-color: orange;
-	border-color: orange;
+  background-color: orange;
+  border-color: orange;
+}
+.bg-blue {
+  background-color: rgb(44, 107, 203);
+  border-color: rgb(44, 107, 203);
 }
 
 .btn-primary:hover {
-	background-color: orange;
-	border-color: orange;
+  background-color: orange;
+  border-color: orange;
 }
 
-
 #events {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	background-color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: white;
 }
 
 /* Event Section Vertical Tab Pills */
 
-		/* Controlls Normal State of Pills (with Hover) */
+/* Controlls Normal State of Pills (with Hover) */
 .events.nav-pills .nav-link {
-	border-radius: 0.5rem;
-	color: black;
+  border-radius: 0.5rem;
+  color: black;
 }
 
 .events.nav-pills .nav-link p {
-	color: gray;
+  color: gray;
 }
 
 .events.nav-pills .nav-link:hover p {
-	color: black;
+  color: black;
 }
 
-		/* Controlls Active State of Pills */
+/* Controlls Active State of Pills */
 .events.nav-pills .nav-link.active,
 .events.nav-pills .show > .nav-link {
-	color: black;
-	background-color: #f7faff;
-	transition: 0.5s;
+  color: black;
+  background-color: #f7faff;
+  transition: 0.5s;
 }
 
 .events.nav-pills .nav-link.active h5,
-.events.nav-pills .show > .nav-link h5{
-color: rgb(44,107,203);
+.events.nav-pills .show > .nav-link h5 {
+  color: rgb(44, 107, 203);
 }
 
 .events.nav-pills .nav-link.active p,
-.events.nav-pills .show > .nav-link p{
-color: black;
+.events.nav-pills .show > .nav-link p {
+  color: black;
 }
 
 .tab-content img {
-	border-radius: 0.5rem;
+  border-radius: 0.5rem;
 }
 /* End Event Section Vertical Tab Pills */
 
 body {
-	font-family: 'Nunito Sans', sans-serif !important;
+  font-family: "Nunito Sans", sans-serif !important;
 }
 
 #hero {
-	padding-top: 3rem;
-	background-color: #f7faff;
+  padding-top: 3rem;
+  background-color: #f7faff;
 }
 
 #partners {
-	background-color: #f7faff;
+  background-color: #f7faff;
 }
 
 #academy {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	background-color: #f7faff;
-
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7faff;
 }
 
 #academy h2 {
-	color: rgb(44,107,203);
+  color: rgb(44, 107, 203);
 }
 
 #academy .btn-outline-primary:hover {
-	color: white;
+  color: white;
 }
 
 #sponsors img {
-	max-width: 65%;
-	max-height: auto;
+  max-width: 65%;
+  max-height: auto;
 }
-.page-footer {
-	/*background-color: rgb(44,107,203);*/
-}
+
 .page-footer a {
-	color: lightgray;
+  color: lightgray;
 }
 
 .page-footer a:hover {
-	color: white;
+  color: white;
 }
 
 .page-footer a:hover::before {
-	display: none;
+  display: none;
 }
 
 .page-footer .join {
-	background-color: rgb(52, 120, 221);
+  background-color: rgb(52, 120, 221);
 }
 
 #team {
-	background: url(../images/Large-Triangles.svg);
+  background: url(../images/Large-Triangles.svg);
 }
 #boardopenings {
-	background: url(../images/Large-Triangles.svg);
+  background: url(../images/Large-Triangles.svg);
 }
-
